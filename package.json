@@ -1,7 +1,7 @@
 {
   "name": "praxis",
   "version": "0.1.19",
-  "description": "A simplified React/Flux framework for beginners.",
+  "description": "A simplified React/Flux framework.",
   "keywords": [
     "react",
     "flux",
