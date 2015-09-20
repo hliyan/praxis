@@ -1,6 +1,14 @@
 import $ from 'jquery';
 import Promise from 'bluebird';
 
+/**
+ * A thin wrapper for a RESTful API
+ * USAGE:
+ * let api = new RESTApi('www.foo.com');
+ * api.get('/users').then(function(res) {
+ *   console.log(res.body);  
+ * });
+ */
 export default class RESTApi {
     constructor(host, baseUrl = '', port = 80, headers = null) {
         this.setHost(host, baseUrl, port);
@@ -58,5 +66,17 @@ export default class RESTApi {
                 reject(response);
             });
         });
+    }
+
+    post(path, data, extraHeaders = null) {
+        throw "TODO: implement";
+    }
+
+    put(path, data, extraHeaders = null) {
+        throw "TODO: implement";
+    }
+
+    delete(path, extraHeaders = null) {
+        throw "TODO: implement";
     }
 }
