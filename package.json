@@ -1,0 +1,41 @@
+{
+  "name": "praxis",
+  "version": "0.1.19",
+  "description": "A simplified React/Flux framework for beginners.",
+  "keywords": [
+    "react",
+    "flux",
+    "router",
+    "store",
+    "ui"
+  ],
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hliyan/praxis.git"
+  },
+  "author": {
+    "name": "Hasitha Liyanage",
+    "email": "hasithaliyan@gmail.com",
+    "url": "hliyan.github.io"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hliyan/praxis/issues"
+  },
+  "homepage": "https://github.com/hliyan/praxis",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "flux": "^2.1.1",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "react-router": "^1.0.0-rc1"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "node-libs-browser": "^0.5.2"
+  }
+}
