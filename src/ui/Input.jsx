@@ -1,17 +1,7 @@
 import React from 'react';
+import Styles from './Styles';
 
-var style = {
-    label: {
-        marginLeft: '0.5em',
-        marginRight: '3em',
-        fontFamily: 'sans-serif',
-        color: '#bbb'
-    },
-    input: {
-        margin: '0.5em',
-        padding: '0.5em'
-    }
-};
+var style = Styles.get('input');
 
 /**
  * USAGE:
