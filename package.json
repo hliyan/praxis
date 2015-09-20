@@ -10,7 +10,9 @@
     "ui"
   ],
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:hliyan/praxis.git"
