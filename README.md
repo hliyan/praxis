@@ -1,16 +1,14 @@
-A Flux mini-framework with react-router
-
 # Praxis
 
-*Praxis* is a mini-framework for building single page applications with React.js.
+*Praxis* is a [Flux](https://github.com/facebook/flux) mini-framework for building single page applications with [React.js](https://github.com/facebook/react).
 
 ## Features
 - A simplified dispatch mechanism without action creators and action constants (a deviation from Facebook's Flux recommendations)
-- A router based on react-router
-- An extensible base store
-- A RESTful API wrapper that can be embedded inside a store
-- A localStorage based session (WIP)
-- UI components (WIP)
+- A router based on [react-router](https://github.com/rackt/react-router)
+- An extensible [base store](https://github.com/hliyan/praxis/blob/master/src/storage/ArrayStore.js)
+- A [RESTful API wrapper](https://github.com/hliyan/praxis/blob/master/src/net/RESTApi.js) that can be embedded inside a store
+- A localStorage based [session](https://github.com/hliyan/praxis/blob/master/src/app/Session.js) (WIP)
+- [UI components](https://github.com/hliyan/praxis/tree/master/src/ui) (WIP)
 
 ## How to install
 
