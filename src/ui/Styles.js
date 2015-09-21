@@ -29,6 +29,10 @@ class Styles {
     get(style) {
         return this.styles['active'][style];
     }
+
+    add(name, styles) {
+        this.styles[name] = styles;
+    }
 }
 
 export default new Styles();
