@@ -72,6 +72,8 @@ export default class TodoStore extends ArrayStore {
 
 ## How to run the samples
 
+You can find the samples at [praxis-samples](https://github.com/hliyan/praxis-samples)
+
 ```
 git clone git@github.com:hliyan/praxis-samples.git
 cd praxis-samples/02-notes # run second sample
