@@ -38,7 +38,7 @@ Dispatcher.dispatch({ action: 'createTodo', text: 'Hello'});
 
 - The `ArrayStore` can be used as-is for in-memory storage
 
-#### A simple REST store example
+A simple REST store example
 
 ```javascript
 import { ArrayStore, RESTApi } from 'praxis';
@@ -93,3 +93,4 @@ cd praxis-samples/00-boilerplate
 - UI components are incomplete
 - webpack build takes too long because of node_modules (which are included because Praxis re-exports React and react-router)
 - Complete work on Session, RESTApi etc.
+- API documentation
