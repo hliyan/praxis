@@ -1,7 +1,7 @@
 {
   "name": "praxis",
-  "version": "0.1.21",
-  "description": "A simplified React/Flux framework.",
+  "version": "0.1.22",
+  "description": "A Flux mini-framework with react-router",
   "keywords": [
     "react",
     "flux",
