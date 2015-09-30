@@ -20,7 +20,7 @@
 import { Dispatcher } from 'praxis';
 
 // register a store to receive dispatched actions
-Dispatcher.register('notes', new TodoStore());
+Dispatcher.register('todos', new TodoStore());
 
 // register a callback to receive events from stores
 Dispatcher.subscribe('todos', 'change', function() {
